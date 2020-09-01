@@ -41,7 +41,7 @@ void show_several_bytes() {
 }
 
 void show_byte(ULONG addr,int length) {
-	printf("0x%p 开始的 %d 个字节：", addr, length);
+	printf("0x%p 寮�濮嬬殑 %d 涓瓧鑺傦細", addr, length);
 	for (int i = 0; i < length; i++) {
 		BYTE t;
 		__asm {
