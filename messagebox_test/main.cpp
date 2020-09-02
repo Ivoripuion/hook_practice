@@ -10,8 +10,7 @@ void show_byte(ULONG addr,int length = 1);
 
 int main() {
 	while (1){
-		cout << "\033[32m" << "TEST YOUR HOOK" << endl;
-		cout << "\033[37m";
+		cout << "TEST YOUR HOOK" << endl;
 		cout << "1.show messagebox;"<<endl;
 		cout << "2.show several bytes of the api;"<<endl;
 		cout << "input the index:" << endl;
